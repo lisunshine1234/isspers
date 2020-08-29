@@ -1,0 +1,58 @@
+<!-- start Left Menu-->
+<div class="col-md-3 left_color">
+    <div class="left_color scroll-view">
+        <div class="navbar nav_title">
+            <a th:href="@{/admin/index}" class="medium-logo">
+                <img th:src="@{${systemInfo.systemLogo4}}" alt="medium-logo">
+            </a>
+            <a th:href="@{/admin/index}" class="small-logo">
+                <img th:src="@{${systemInfo.systemLogo5}}" alt="small-logo">
+            </a>
+        </div>
+
+        <div class="clearfix"></div>
+        <!-- sidebar menu -->
+        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section" >
+                <ul class="nav side-menu" th:each="navigationParent:${navigationList}">
+                    <li th:if="${navigationParent.navigationLevel ==0}">
+                        <a class="waves-effect waves-light" th:href="@{${navigationParent.navigationUrl}}">
+                            <i th:class="${navigationParent.navigationIcon}"></i>
+                            <w th:text="${navigationParent.navigationName}"></w>
+                        </a></li>
+
+                    <li th:if="${navigationParent.navigationLevel ==1}">
+                        <a class="waves-effect waves-light">
+                            <i th:class="${navigationParent.navigationIcon}"></i>
+                            <w th:text="${navigationParent.navigationName}"></w>
+                            <span class="fa fa-chevron-right"></span></a>
+                        <ul th:if="${navigationParent.adminNavigationChildList.size() > 0}" class="nav child_menu">
+                            <li th:each="navigationChild:${navigationParent.adminNavigationChildList}">
+                                <a class="waves-effect waves-light" th:href="@{${navigationChild.navigationUrl}}" th:text="${navigationChild.navigationName}"></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /sidebar menu -->
+
+        <!-- /menu footer buttons -->
+        <div class="sidebar-footer hidden-small">
+            <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="fa fa-cog" aria-hidden="true"></span>
+            </a>
+            <a class="toggle-fullscreen" data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="fa fa-arrows-alt" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="fa fa-lock" aria-hidden="true"></span>
+            </a>
+            <a data-toggle="tooltip" data-placement="top" title="Logout" th:href="@{/logout}">
+                <span class="fa fa-power-off" aria-hidden="true"></span>
+            </a>
+        </div>
+        <!-- /menu footer buttons -->
+    </div>
+</div>
+<!-- End Left Menu -->

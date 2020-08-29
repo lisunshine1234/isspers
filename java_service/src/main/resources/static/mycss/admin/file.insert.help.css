@@ -1,0 +1,67 @@
+
+.upload-model button {
+    margin: 10px 20px;
+
+}
+
+.progress-bar-stop {
+    background: grey;
+}
+
+.progress-bar-wrong {
+    background: red;
+}
+
+.file-upload {
+    /*min-width: 1000px;*/
+    height: 300px;
+    overflow: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: GhostWhite;
+    cursor: pointer;
+    text-align: center;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    font-size: 18px;
+}
+
+.file-upload-on {
+    /*width: 600px;*/
+    height: 300px;
+    overflow: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: white;
+}
+
+.file-upload table {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.file-upload-on table {
+    padding: 10px !important;
+    border: none;
+}
+
+.file-upload-on table tr {
+    width: 80%;
+}
+
+.file-upload-on table td {
+    width: 100%;
+    /*background: white;*/
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+.file-upload-on table td div {
+    margin: 0;
+}

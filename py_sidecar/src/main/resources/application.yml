@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sidecar
+server:
+  port: 8001
+sidecar:
+  port: 3000
+  health-uri: http://localhost:${sidecar.port}/health
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+

@@ -1,0 +1,43 @@
+<!-- start top navigation -->
+<div class="top_nav">
+    <div class="nav_menu">
+        <nav>
+            <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                <div class="responsive-logo">
+                    <a th:href="@{/index}">
+                        <img th:src="@{${systemInfo.systemLogo4}}" alt="main-logo">
+                    </a>
+                </div>
+            </div>
+            <div class="topbar-right">
+                <div class="nav navbar-nav navbar-right">
+                    <div class="dropdown user-profile right-icon">
+                        <a href="javascript:" class="dropdown-toggle waves-effect waves-light"
+                           data-toggle="dropdown"
+                           aria-expanded="false">
+                            <img th:src="@{/assets/global/images/user10.jpg}" alt="user">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:" class="waves-effect waves-light">
+                                <i class="fa fa-user" aria-hidden="true"></i>Profile</a>
+                            </li>
+                            <li><a href="javascript:" class="waves-effect waves-light">
+                                <i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+                            </li>
+                            <li><a href="javascript:" class="waves-effect waves-light">
+                                <i class="fa fa-lock" aria-hidden="true"></i>Lock screen</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a th:href="@{/logout}" class="waves-effect waves-light">
+                                <i class="fa fa-power-off text-danger" aria-hidden="true"></i> Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="clearfix"></div>
+<!-- End top navigation -->

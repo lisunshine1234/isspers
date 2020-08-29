@@ -1,0 +1,51 @@
+.verification{
+    width:40%
+}
+
+.verification >input{
+    width:80%;
+    margin-right: 15px;
+    display: inline;
+}
+
+.font-mar-blue{
+    margin-left: 20px;
+    color: #0b93d5;
+}
+.font-red{
+    color: red;
+}
+
+.font-black{
+    color: black;
+}
+.sys-logo{
+    text-align: center;
+    height: 80px;
+    border: black 1px solid;
+    background: #E0E0E0;
+}
+
+.sys-logo div{
+    height: 80px;
+    border-right: black 1px solid;
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+}
+
+.permissionModel{
+
+}
+
+.permissionAllModel{
+
+}
+
+.permissionButtonModel{
+
+}
+
+.permissionChooseModel{
+
+}

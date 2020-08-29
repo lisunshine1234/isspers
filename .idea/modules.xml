@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/isspers.iml" filepath="$PROJECT_DIR$/.idea/isspers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_service/java_service.iml" filepath="$PROJECT_DIR$/java_service/java_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/py_sidecar/py_sidecar.iml" filepath="$PROJECT_DIR$/py_sidecar/py_sidecar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python/python.iml" filepath="$PROJECT_DIR$/python/python.iml" />
+    </modules>
+  </component>
+</project>

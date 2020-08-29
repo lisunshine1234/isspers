@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <meta charset="utf-8">
+    <meta name="description" content="bootstrap default admin template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title th:text="${systemInfo.systemName}"></title>
+
+    <!-- Start global css -->
+    <link rel="stylesheet" th:href="@{/assets/global/plugins/Waves/dist/waves.min.css}"/>
+    <link rel="stylesheet" th:href="@{/assets/global/plugins/bootstrap/dist/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/assets/icons_fonts/font-awesome/css/font-awesome.min.css}"/>
+    <!-- End global css -->
+    <link rel="stylesheet" th:href="@{/mycss/admin/my.help.css}"/>
+    <!-- Start page plugin css -->
+    <link rel="stylesheet" th:href="@{/assets/global/plugins/datatables/media/css/jquery.dataTables.min.css}"/>
+    <link rel="stylesheet" th:href="@{/assets/global/plugins/datatables/media/css/dataTables.bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/assets/global/plugins/jquery-ui/themes/base/jquery-ui.min.css}"/>
+    <link rel="stylesheet" th:href="@{/assets/global/plugins/sweetalert2/dist/sweetalert2.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/validate.css}"/>
+    <link rel="stylesheet" th:href="@{/mycss/admin/my.help.css}"/>
+    <!-- End page plugin css -->
+    <!-- Start template global css -->
+    <link th:href="@{/assets/global/css/components.min.css}" type="text/css" rel="stylesheet"/>
+    <!-- End template global css -->
+    <!-- Start layout css -->
+    <link rel="stylesheet" th:href="@{/assets/layouts/layouts_left_menu/left_menu_layout.min.css}"/>
+    <!-- End layout css -->
+    <!-- Start favicon ico -->
+    <link rel="icon" th:href="@{${systemInfo.systemLogo1}}" type="image/x-icon"/>
+    <link rel="icon" type="image/png" sizes="192x192" th:href="@{${systemInfo.systemLogo2}}">
+    <link rel="apple-touch-icon" sizes="180x180" th:href="@{${systemInfo.systemLogo3}}">
+
+</head>
+<body class="nav-medium">
+<div class="container body">
+    <div class="main_container">
+        <div th:replace="admin/main/model/top"></div>
+        <div th:replace="admin/main/model/menu"></div>
+        <div th:replace="admin/main/model/top_navigation"></div>
+
+        <!-- Start Contain Section -->
+        <div class="container-fluid right_color">
+            <div class="contain-section">
+                <div class="contain-inner-section">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="set_page">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal-button" id="setModalPlace"></div>
+    <!-- End Contain Section -->
+    <!-- Start Footer Section -->
+    <footer class="footer" th:text="${systemInfo.getSystemBatch()}+'  '+${systemInfo.systemFoot}"></footer>
+    <!-- End Footer Section -->
+</div>
+</div>
+
+<!-- Start core js -->
+<script th:src="@{/assets/global/plugins/jquery/dist/jquery.min.js}"></script>
+<!--<script th:src="@{/js/jquery-3.4.1.min.js}"></script>-->
+<script th:src="@{/js/jquery.validate.min.js}"></script>
+<script th:src="@{/js/additional-methods.js}"></script>
+<script type="text/javascript" th:src="@{/js/messages_zh.js}"></script>
+<script th:src="@{/assets/global/plugins/bootstrap/dist/js/bootstrap.min.js}"></script>
+<script th:src="@{/assets/global/plugins/Waves/dist/waves.min.js}"></script>
+<script th:src="@{/assets/global/plugins/screenfull.js/dist/screenfull.min.js}"></script>
+<script th:src="@{/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.js}"></script>
+<script th:src="@{/assets/global/plugins/jquery-ui/jquery-ui.min.js}"></script>
+<script th:src="@{/assets/global/js/left-menu.min.js}"></script>
+<script th:src="@{/assets/global/plugins/sweetalert2/dist/sweetalert2.min.js}"></script>
+<script th:src="@{/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js}"></script>
+<script th:src="@{/assets/global/plugins/datatables/media/js/dataTables.bootstrap.min.js}"></script>
+<script th:src="@{/js/es6-promise-min.js}"></script>
+<!-- End page js -->
+<script type="text/javascript" th:src="@{/myjs/admin/set.audit.help.js}"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+input.error {
+    border: 1px solid red;
+}
+
+label.error {
+    background: url('../images/unchecked.gif') no-repeat;
+    padding-left: 16px;
+    margin-left: .3em;
+    font-weight: bold;
+    color: #EA5200;
+}
+
+label.valid {
+    background: url('../images/checked.gif') no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+}

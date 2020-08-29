@@ -1,0 +1,77 @@
+.wizard > .content {
+    overflow: auto;
+    height: auto;
+}
+.wizard > .content > .body{
+    width: 100%;
+}
+.display-checkbox {
+    display: inline;
+    padding-right: 30px;
+    margin: 20px 10px 0 20px;
+}
+
+.model {
+    margin-bottom: 50px;
+}
+
+.engine {
+    border: 1px solid grey;
+    height: 300px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.engine div {
+    display: inline;
+}
+
+.engine div label {
+    margin: 10px 15px;
+    padding-left: 26px;
+    display: inline;
+}
+
+.upload-input-output-table > thead > tr > td {
+    border-bottom: 1px solid gainsboro;
+}
+
+.upload-input-output-table > tbody > tr > td {
+    border-top: none;
+    /*border-bottom: 1px solid gainsboro;*/
+}
+
+.algorithm-type {
+    margin-right: 15px;
+}
+
+.my-body {
+    width: 100%;
+    height: auto;
+}
+
+.btn-dropdown {
+}
+
+.btn-dropdown button {
+    width: 200px;
+}
+
+.btn-dropdown ul {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.btn-dropdown ul li {
+    list-style-type: none;
+    width: 200px;
+    border-bottom: 1px solid white;
+}
+
+.w-e-menu {
+    z-index: 2 !important;
+}
+
+.w-e-text-container {
+    z-index: 1 !important;
+}

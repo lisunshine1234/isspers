@@ -1,0 +1,239 @@
+.runInfo {
+    width: 100%;
+    overflow: scroll;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.runInfo font {
+    font-size: 0.9em;
+    text-align: left;
+    clear: both;
+}
+
+.runInfoFinish {
+    width: 100%;
+    overflow: scroll;
+    font-size: 1em;
+    text-align: left;
+}
+
+.runInfoFinish font {
+    font-size: 1em;
+    text-align: left;
+    clear: both;
+}
+
+.run-table th {
+    text-align: left;
+    font-size: 16px;
+}
+
+.run-table td {
+    text-align: left;
+    font-size: 16px;
+
+}
+
+.algorithm-href {
+    text-align: right;
+
+}
+
+.algorithm-href a {
+    color: blue;
+
+}
+
+.onstar {
+    color: orange;
+}
+
+.algorithm-card-head {
+    padding-top: 10px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.algorithm-card-head a {
+    padding-left: 10px;
+}
+
+.algorithm-name {
+    display: inline;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.algorithm-info {
+    float: right;
+}
+
+.algorithm-info a {
+    padding-right: 10px;
+}
+
+.algorithm-card-head i {
+    padding-right: 3px;
+}
+
+.algorithm-card {
+    padding: 10px 0 !important;
+}
+
+.section-body {
+    margin-bottom: 0 !important;
+}
+
+.algorithm-card-info {
+    display: block;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.algorithm-card-info div {
+    display: inline;
+    padding-right: 15px;
+}
+
+.algorithm-card-body {
+    padding-top: 15px;
+    color: black;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.algorithm-card-head-swal {
+    padding-top: 10px;
+    padding-right: 10px;
+    display: block;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.algorithm-name-swal {
+    padding-left: 10px;
+    display: inline;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.algorithm-info-swal {
+    display: inline;
+    float: right;
+    font-size: 16px;
+}
+
+.algorithm-info-swal a {
+    padding-right: 10px;
+}
+
+.algorithm-card-head-swal i {
+    padding-right: 3px;
+}
+
+.algorithm-card-swal {
+    padding: 10px 0 !important;
+}
+
+.section-body-swal {
+    margin-bottom: 0 !important;
+}
+
+.algorithm-card-info-swal {
+    display: block;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.algorithm-card-info-swal div {
+    display: inline;
+    padding-right: 15px;
+}
+
+.algorithm-card-body-swal {
+    padding-top: 15px;
+    color: black;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.algorithm-table {
+    border: none !important;
+}
+
+.algorithm-table-tr0 th {
+    padding: 0 !important;
+}
+
+.algorithm-table-tr1 th {
+    background: #F0F0F0 !important;
+}
+
+.algorithm-sort {
+    border: 1px solid darkgrey;
+    text-align: center;
+    display: inline;
+    padding: 5px 10px;
+    background: white;
+    border-left: none;
+    width: 300em;
+}
+
+.algorithm-sort i {
+    color: #5e5e5e
+}
+
+.algorithm-sort-click {
+    border: 1px solid darkgrey;
+    text-align: center;
+    display: inline;
+    padding: 5px 20px;
+    background: #9d9d9d;
+    color: white;
+    border-left: none;
+}
+
+.algorithm-sort-click i {
+    color: #ffffff
+}
+
+.algorithm-model {
+    margin-bottom: 30px;
+}
+
+.form-radio label {
+    display: inline !important;
+    padding-right: 30px;
+}
+
+.radio-button {
+    display: inline;
+}
+
+.row-column-range {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+.display {
+    margin-top: 30px;
+}
+
+.display-tools {
+    display: block;
+    margin: 10px 10px 10px 0;
+    padding: 0 0;
+}
+
